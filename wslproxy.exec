@@ -1,0 +1,3 @@
+#随WSL启动自动开启代理
+wslproxy on
+. /home/sss/wslproxy.vars
