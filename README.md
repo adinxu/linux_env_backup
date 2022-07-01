@@ -5,11 +5,15 @@ ruby
 nodejs  
 
 工具类：  
-vim-viminit  
-zsh-antigen  
+[vim-viminit](https://github.com/adinxu/vim-init)  
+[zsh-antigen](https://github.com/zsh-users/antigen)  
 
 其他：  
 脚本设置proxy代理和github代理 
+export http_proxy={proxy server address}:{proxy port}
+export https_proxy={proxy server address}:{proxy port}
+git config --global http.proxy {proxy server address}:{proxy port}
+git config --global https.proxy {proxy server address}:{proxy port}
 
 工具:  
 checkintall  管理源码安装的包
