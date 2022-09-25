@@ -1,4 +1,4 @@
-source $HOME/wslproxy.exec
+source $HOME/setproxy.sh
 source $HOME/antigen.zsh
 
 # Load the oh-my-zsh's library
