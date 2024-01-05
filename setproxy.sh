@@ -1,5 +1,6 @@
-#!/bin/sh
-export http_proxy=http://127.0.0.1:7890
-export https_proxy=http://127.0.0.1:7890
-git config --global http.proxy http://127.0.0.1:7890
-git config --global https.proxy https://127.0.0.1:7890
+#!/bin/bash
+proxy=192.168.16.201:7890
+export http_proxy=http://${proxy}
+export https_proxy=http://${proxy}
+git config --global http.proxy http://${proxy}
+git config --global https.proxy https://${proxy}

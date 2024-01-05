@@ -7,8 +7,8 @@ antigen use oh-my-zsh
 antigen bundles <<EOBUNDLES
     # Bundles from the default repo (robbyrussell's oh-my-zsh)
     git
-    docker
-    docker-compose
+    #docker
+    #docker-compose
     # Syntax highlighting bundle.
     zsh-users/zsh-syntax-highlighting
 
