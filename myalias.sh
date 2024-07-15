@@ -2,7 +2,7 @@
 
 #common
 alias grepall="egrep -IHrns --exclude-dir='.svn'"
-alias noch_list="ls -l|egrep -v "\.[ch]$""
+alias noch_list="ls -l|egrep -v '\.[ch]$'"
 alias gcc="gcc -std=c99"
 alias g++="g++ -std=c++11"
 alias dirs="dirs -v"
@@ -12,7 +12,7 @@ alias sc="screen -DR"
 #svn
 alias imme_up="svn up --set-depth=immediates"
 alias infi_up="svn up --set-depth=infinity"
-alias show_diff="svn status|egrep "^[MA]"|awk '{print $2}'"
+alias show_diff="svn status|egrep '^[MA]'|awk '{print $2}'"
 alias getcommitfile="svn st -q|awk '{print \$2}'|tee file_to_commit.txt"
 alias mycommit="svn ci --targets file_to_commit.txt -m"
 alias mydiff="svn st -q|awk '{print \$2}'|paste -s -d ' '|xargs -I {} svn diff {}"
