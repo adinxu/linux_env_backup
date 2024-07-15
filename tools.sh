@@ -48,7 +48,6 @@ function restore_or_backup_file() {
 		touch ${file_full_path}.bak
 		self_print "touch file ${file_full_path} and ${file_full_path}.bak"
 	else
-		#ÏÈ±¸·Ý
 		cp -n ${file_full_path} ${file_full_path}.bak
 		self_print "backup ${file_full_path}>${file_full_path}.bak"
 	fi
