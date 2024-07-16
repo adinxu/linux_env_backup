@@ -7,7 +7,7 @@ antigen use oh-my-zsh
 
 antigen bundles <<EOBUNDLES
     # Bundles from the default repo (robbyrussell's oh-my-zsh)
-    git
+    #git
     #docker
     #docker-compose
     # Syntax highlighting bundle.
@@ -25,8 +25,8 @@ antigen bundles <<EOBUNDLES
 EOBUNDLES
 
 # Load the theme
-# antigen theme robbyrussell
-antigen theme agnoster
+antigen theme robbyrussell
+#antigen theme agnoster
 
 # Tell antigen that you're done
 antigen apply

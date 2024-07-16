@@ -22,7 +22,7 @@ alias cflow="cflow -l --omit-arguments --omit-symbol-names"
 #pi
 alias linkpi="screen /dev/tty.wchusbserial220 115200"
 alias connectpi="ssh pi@link.local"
-alias pserial="sudo agent-proxy 5550^5551 0 /dev/ttyUSB0,115200&"
+alias pserial="sudo agent-proxy 5550^5551 0 /dev/ttyUSB0,115200"
 #wsl
 alias bentutu="ssh wsl@My-win.local -p 4000"
 alias mywin="ssh admin@My-win.local"
