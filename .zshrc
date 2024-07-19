@@ -1,3 +1,4 @@
+export TERM=linux
 source $HOME/myalias.sh
 source $HOME/setproxy.sh
 source $HOME/antigen.zsh
