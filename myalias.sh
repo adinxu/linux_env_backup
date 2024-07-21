@@ -6,6 +6,7 @@ alias noch_list="ls -l|egrep -v '\.[ch]$'"
 alias gcc="gcc -std=c99"
 alias g++="g++ -std=c++11"
 alias dirs="dirs -v"
+alias listusage="du -d 1 -h|sort -h"
 #screen
 alias listscreen="screen -ls"
 alias sc="screen -DR"
