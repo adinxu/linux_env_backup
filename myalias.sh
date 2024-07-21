@@ -24,6 +24,7 @@ alias cflow="cflow -l --omit-arguments --omit-symbol-names"
 alias linkpi="screen /dev/tty.wchusbserial220 115200"
 alias connectpi="ssh pi@link.local"
 alias pserial="sudo agent-proxy 5550^5551 0 /dev/ttyUSB0,115200"
+alias openkgdb="echo ttyAMA0  > /sys/module/kgdboc/parameters/kgdboc&&echo g > /proc/sysrq-trigger"
 #wsl
 alias bentutu="ssh wsl@My-win.local -p 4000"
 alias mywin="ssh admin@My-win.local"
